@@ -18,14 +18,22 @@
         }
 
         .loading-container img {
-            width: 600px; /* Set desired width */
+            width: 400px; /* Set desired width */
             height: auto; /* Maintain aspect ratio */
         }
+
+        /* Media query for smaller screens (e.g., mobile devices) */
+        @media (max-width: 768px) {
+            .loading-container img {
+                width: 1000px; /* Adjust width for smaller screens */
+            }
+        }
+
     </style>
 </head>
 <body>
     <div class="loading-container">
-        <img src="https://scontent.fdac23-1.fna.fbcdn.net/v/t1.15752-9/435124095_1570345237141926_3185748950899755834_n.gif?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFc3rouqkbeWX7H5phi55ehBApxbq69jvMECnFurr2O8xdVBksSb1OjljffxVm7nQY0z54oSauq0PlXADMo0F6n&_nc_ohc=G3d5C8TMXSYAb5dXqLQ&_nc_oc=Adho-Hm1REI_rrfuwbCiXXs6N4yLI337OIoazS4IjtY_CIO26xeyJpZDf9VfVPaN2FY&_nc_ht=scontent.fdac23-1.fna&oh=03_Q7cD1QGP5p7ILzjeeIoh5V11_V8DhHHU0d9mereVYk05ZQldGg&oe=6651CCB5" alt="Loading...">
+        <img src="https://scontent.fdac23-1.fna.fbcdn.net/v/t1.15752-9/435174612_1841750616327164_866790237925215080_n.gif?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFpnfvr1cIQxTaa__o1Lt8GDfHA332TgGkN8cDffZOAaTOJO3Z2KZyBuuPaRGfyh3a1ke_4C2k3KE2Pnm5scuQC&_nc_ohc=5swn84x-U_UAb7enf8c&_nc_ht=scontent.fdac23-1.fna&oh=03_Q7cD1QHoZ031HY7bJk9xV8ysVt6tbeWdP3b577qcVelOMQJG7A&oe=6651A853" alt="Loading...">
     </div>
 </body>
 </html>
